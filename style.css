@@ -1,0 +1,203 @@
+body {
+    max-width: 100vw;
+    max-height: 100vh;
+    background-color: #3D9970;
+    font-family: monaco;
+  }
+  
+  .wrapper {
+    display: grid;
+    align-content: center;
+    grid-template-areas: 
+    "....  flag1  ...."
+    "....  header ...."
+    "flag2 survey flag3"
+    "flag4 survey flag5"
+    "flag6 survey flag7"
+    "footer1 flag8 footer2";
+    grid-template-columns: 1fr 1000px 1fr;
+    grid-row-gap: 15px;
+    font-size: 22px;
+  }
+  
+  #header {
+    grid-area: header;
+    text-align: center;
+    margin: auto;
+  }
+  
+  #survey {
+    grid-area: survey;
+    padding: 20px;
+    border: 3px solid #555;
+    max-width: 30vw;
+    border-radius: 2%;
+    display: grid;
+    grid-template-areas:
+      "survey1"
+      "survey2"
+      "survey3"
+      "survey4"
+      "survey5"
+      "survey6"
+      "survey7";
+    background-color: #3D557580;
+    justify-self: center;
+    grid-row-gap: 10px;
+    margin: 0px;
+  }
+  
+  #part1 {
+    font-weight: bold;
+    grid-area: survey1;
+    display: grid;
+    box-sizing: border-box;
+    grid-row-gap: 10px;
+  }
+  
+  #part2 {
+    grid-area: survey2;
+    margin-top: 20px;
+  }
+  
+  #part3 {
+    grid-area: survey3;
+  }
+  
+  #part4 {
+    font-weight: bold;
+    grid-area: survey4;
+    display: grid;
+  }
+  
+  #part5 {
+    font-weight: bold;
+    grid-area: survey5;
+    display: grid;
+  }
+  
+  #part6 {
+    font-weight: bold;
+    grid-area: survey6;
+    display: grid;
+  }
+  
+  #part7 {
+    font-weight: bold;
+    grid-area: survey7;
+    display: grid;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin-top: 5px;
+    margin-left: -4px;
+    padding-left: 0px;
+  }
+  
+  #wohnort {
+    font-weight: bold;
+  }
+  
+  input {
+    border-radius: 6px;
+    margin-top: -10px;
+  }
+  
+  textarea {
+    border-radius: 5%;
+  }
+  
+  button {
+    margin-top: 10px;
+    border-radius: 5%;
+    background-color: #3D4770;
+    font-family: monaco;
+    color: white;
+    height: 35px;
+  }
+  
+  #dropdown {
+    height: 35px;
+    border-radius: 2%;
+    max-width: 30vw;
+    background-color: white;
+    font-size: 18px;
+    font-family: monaco;
+  }
+  
+  #dropdown2 {
+    height: 35px;
+    border-radius: 2%;
+    max-width: 30vw;
+    background-color: white;
+    font-size: 18px;
+    font-family: monaco;
+  }
+  
+  #dropdown3 {
+    height: 35px;
+    border-radius: 2%;
+    max-width: 30vw;
+    background-color: white;
+    font-size: 18px;
+    font-family: monaco;
+  }
+  
+  #flag1 {
+    grid-area: flag1;
+    margin-top: 20px;
+  }
+  
+  #flag2 {
+    grid-area: flag2;
+  }
+  
+  #flag3 {
+    grid-area: flag3;
+  }
+  
+  #flag4 {
+    grid-area: flag4;
+  }
+  
+  #flag5 {
+    grid-area: flag5;
+  }
+  
+  #flag6 {
+    grid-area: flag6;
+  }
+  
+  #flag7 {
+    grid-area: flag7;
+  }
+  
+  #flag8 {
+    grid-area: flag8;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  img {
+    max-height: 150px;
+    border: 3px solid #555;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    min-height: 50px;
+    height: auto;
+    display: block;
+  }
+  
+  input {
+    font-size: 18px;
+  }
+  
+  textarea {
+    font-size: 18px;
+  }
+  
+  button {
+    font-size: 18px;
+  }
